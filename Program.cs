@@ -89,3 +89,13 @@
 //     numArr[i] = new Random().Next(0, 2);
 //     Console.WriteLine(numArr[i]);
 // }
+
+// Вариант №2 с выведением массива в одну строчку! Добавляем команду String.Join и выносим Console.WriteLine за цикл
+
+// int[] numArr = new int[8];
+
+// for (int i = 0; i < numArr.Length; i++)
+// {
+//     numArr[i] = new Random().Next(0, 2);
+// }
+// Console.WriteLine(String.Join("", numArr));

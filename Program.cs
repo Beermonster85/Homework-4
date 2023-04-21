@@ -63,18 +63,29 @@
 // 4--->24
 // 5--->120
 
-Console.WriteLine("Введите число N");
-int N = Convert.ToInt32(Console.ReadLine());
-int count = 1;
-int Prod = 1;
+// Console.WriteLine("Введите число N");
+// int N = Convert.ToInt32(Console.ReadLine());
+// int count = 1;
+// int Prod = 1;
 
-int ProdNum()
-{
-    while (N > count)
-    {
-        count++;
-        Prod = Prod * count;
-    }
-    return Prod;
-}
-Console.WriteLine(ProdNum());
+// int ProdNum()
+// {
+//     while (N > count)
+//     {
+//         count++;
+//         Prod = Prod * count;
+//     }
+//     return Prod;
+// }
+// Console.WriteLine(ProdNum());
+
+// Задание №4
+// Написать программу которая выводит массив из 8 цифр заполненный нулями и еденицами в случайном порядке
+
+// int[] numArr = new int[8];
+
+// for (int i = 0; i < numArr.Length; i++)
+// {
+//     numArr[i] = new Random().Next(0, 2);
+//     Console.WriteLine(numArr[i]);
+// }

@@ -57,3 +57,24 @@
 // }
 
 // Console.WriteLine(NumCount());
+
+// Задача №3
+// Напишите программу которая на вход принимает число N и выдает произведение чисел от 1 до N
+// 4--->24
+// 5--->120
+
+Console.WriteLine("Введите число N");
+int N = Convert.ToInt32(Console.ReadLine());
+int count = 1;
+int Prod = 1;
+
+int ProdNum()
+{
+    while (N > count)
+    {
+        count++;
+        Prod = Prod * count;
+    }
+    return Prod;
+}
+Console.WriteLine(ProdNum());
